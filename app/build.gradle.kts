@@ -86,7 +86,9 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")
 
     val roomVersion = "2.6.0"
-    implementation("androidx.room:room-runtime:$roomVersion")
+    implementation ("androidx.room:room-runtime:$roomVersion")
+    implementation ("androidx.room:room-paging:$roomVersion")
+    implementation("androidx.room:room-ktx:$roomVersion")
     annotationProcessor("androidx.room:room-compiler:$roomVersion")
     kapt("androidx.room:room-compiler:$roomVersion")
 
